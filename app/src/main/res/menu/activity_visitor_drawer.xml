@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item android:title="Community">
+            <menu>
+                <item
+                    android:id="@+id/nav_chatRoom"
+                    android:icon="@drawable/ic_message_black_24dp"
+                    android:title="Chats" />
+                <item
+                    android:id="@+id/nav_users"
+                    android:icon="@drawable/ic_account_circle_black_24dp"
+                    android:title="Users" />
+                <item
+                    android:id="@+id/nav_doctors"
+                    android:icon="@drawable/ic_account_circle_black_24dp"
+                    android:title="Doctors" />
+                <item
+                    android:id="@+id/nav_group"
+                    android:icon="@drawable/ic_message_black_24dp"
+                    android:title="Group Chat" />
+            </menu>
+        </item>
+        <item android:title="App">
+            <menu>
+                <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"
+                    android:title="Exit" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item android:title="My Space">
+            <menu>
+                <item
+                    android:id="@+id/nav_blog"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="My Blog" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="About Me" />
+            </menu>
+        </item>
+
+        <item android:title="Community">
+            <menu>
+                <item
+                    android:id="@+id/nav_chatRoom"
+                    android:icon="@drawable/ic_message_black_24dp"
+                    android:title="Chats" />
+                <item
+                    android:id="@+id/nav_users"
+                    android:icon="@drawable/ic_account_circle_black_24dp"
+                    android:title="Users" />
+                <item
+                    android:id="@+id/nav_doctors"
+                    android:icon="@drawable/ic_account_circle_black_24dp"
+                    android:title="Doctors" />
+                <item
+                    android:id="@+id/nav_group"
+                    android:icon="@drawable/ic_message_black_24dp"
+                    android:title="Group Chat" />
+            </menu>
+        </item>
+        <item android:title="App">
+            <menu>
+                <item
+                    android:id="@+id/nav_terms"
+                    android:icon="@drawable/ic_format_text_24dp"
+                    android:title="Terms and Conditions" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"
+                    android:title="Log Out" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

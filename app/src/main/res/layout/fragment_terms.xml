@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.TermsFragment">
+
+    //Continue setting description
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Terms of Use of letscope app"
+            android:textColor="#000"
+            android:padding="20dp"
+            android:id="@+id/terms_title"/>
+        <TextView
+            android:layout_below="@+id/terms_title"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/short_notice"
+            android:text="@string/short_notice"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_below="@+id/short_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/terms"
+            android:scrollbars = "vertical"
+            android:text="@string/terms"
+            android:padding="10dp"/>
+
+
+</RelativeLayout>
