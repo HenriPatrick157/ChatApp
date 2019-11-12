@@ -9,28 +9,22 @@ with the possibility of consulting their doctors for medical advice
 - [JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html) - a package of tools for developing Java-based software
 
 ### SETUP
-First clone it here: 
 
+Project
+
+- `Open Android Studio`
+- `Check out project from Version Control`
+- `Choose Git`
+- `Copy and Paste url`: 
 ```
 https://github.com/HenriPatrick157/ChatApp
 ```
-
-- Project
-
- Open the Project in your android studio
+- Change the Package Name (https://stackoverflow.com/questions/16804093/android-studio-rename-package)
 
 
+Firebase Panel
 
-Change the Package Name (https://stackoverflow.com/questions/16804093/android-studio-rename-package)
-
-
-- Firebase Panel
-
-Create Firebase Project (https://console.firebase.google.com/)
-
-
-
-import the file google-service.json into your project
+- Create Firebase Project and follow instructions (https://console.firebase.google.com/)
 
 
 
@@ -39,4 +33,3 @@ import the file google-service.json into your project
 - `Firebase Realtime database` - cloud-hosted database that uses data synchronization and has offline capabilities
 - `Java` - the most widely used programming language for android application development 
 - `Firebase Cloud Messaging` - cross-platform messaging solution that lets you reliably deliver messages at no cost
-
