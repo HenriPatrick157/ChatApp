@@ -1,5 +1,5 @@
-# ChatApp
-ChatApp is an android online support group application for cancer victims.
+# LetsCope
+LetsCope is an android online support group application for cancer victims.
 It provides a safe place to share and work through feelings and challenges,
 with the possibility of consulting their doctors for medical advice
 
