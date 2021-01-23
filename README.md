@@ -1,7 +1,5 @@
 # LetsCope
-LetsCope is an android online support group application for cancer victims.
-It provides a safe place to share and work through feelings and challenges,
-with the possibility of consulting their doctors for medical advice
+LetsCope is an android online support group application for cancer victims. It provides a safe place to share and work through feelings and challenges, with the possibility for victims to consult their doctors for medical advice
 
 ### Requirements
 - [Android Studio](https://developer.android.com/studio) - the official Integrated Development Environment (IDE) for Android app development, based on IntelliJ IDEA
